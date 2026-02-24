@@ -1,4 +1,13 @@
 using System;
+ScoreTracker math = new ScoreTracker("수학");
+math.ShowScore();
+Console.WriteLine();
 
-// README.md를 읽고 아래에 코드를 작성하세요.
-Console.WriteLine("코드를 작성하세요.");
+math.SetScore(85);
+math.AddBonus(10);
+math.AddBonus(20);
+math.SetScore(-10);
+Console.WriteLine();
+
+math.ShowScore();
+
